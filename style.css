@@ -1,0 +1,71 @@
+body{
+  background-image: url("https://s2.glbimg.com/df76CaMGO6dsfCvqk4CkuyGJSXo=/0x0:3600x2085/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/S/y/7ermQ6R0AIF1h70cxpIw/main-image-star-forming-region-carina-nircam-final-5mb.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.flexin {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+  .divs {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+  .green {
+    background-color: rgb(118, 197, 0);
+  }
+  .green:hover {
+    background-color: rgb(118, 197, 0);
+  }
+
+  #curta{
+    background-color: transparent;
+    border: none;
+  }
+  #curta:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  #curta:active{
+    transform: scale(0.9);
+  }
+
+  ::placeholder{
+    color: antiquewhite;
+  }
